@@ -6,8 +6,12 @@ h1 tag와 p tag 는 header tag 가 감싸고 있는 형태이다
 이때 header tag 를 부모 tag라고 하고, h1 과 p를 header tag child tag라고 한다
 
 부모 tag의 속성을 설정하면 child tag 의 속성도 같이 변화된다.(단, 일부는 그렇지 않다)
-
 */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 header {
   background-color: green;
   color: white;
